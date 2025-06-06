@@ -1,0 +1,93 @@
+html{
+    padding: 1;
+}
+
+body{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    background-color:#242526;
+    background-size: cover; 
+    transition: background-position 0.1s;
+}
+
+#highlight{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.15), transparent 200px);
+    z-index: 0;
+}
+
+#header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 1;
+    font-size:x-large;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 2vh;
+}
+
+#nav li{
+    padding: 1vw;
+}
+
+#nav li:hover{
+    color: red;
+}
+
+#nav{
+    display: none;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 999;
+}
+
+#nav.sticky{
+    display: block;
+}
+
+#about{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100vh;
+    z-index: 1;
+}
+
+h2{
+    padding: 10vh;
+    padding-bottom: 1vh;
+}
+
+#about p{
+    padding: 2vh 25vw;
+}
+
+#about img{
+    width: 10vh;
+}
+
+#projects{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100vh;
+    z-index: 1;
+}
