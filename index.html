@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eric Hoang</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 <body>
     <section id="header">
@@ -47,28 +50,57 @@
 
         <section id="projects">
             <h2>Projects</h2>
-            <p>
-                <img src="img/profile.png" width="500">
-                <h3>Voodies Profile Page</h3>
-                <h4>Tools Leveraged</h4>
-                <p4>Dart, Flutter, Figma, Git, XCode/p4>
-                <p>
-                    As a Front-End Developer intern for Voodies, I developed the profile pages
-                    for users, ensuring accuracy based on the Figma designs from the UI/UX teams.
-                    In this design, the user is able to navigate to the settings page, posts section,
-                    places section, and favorites section.                
-                </p>
-            </p>
-            
+
+            <div class="project-cards">
+                <img src="img/profile.png" width="500" height="500" class="project-title" id="voodies-img">
+                <h3 class="info">Voodies Profile Page</h3>
+                <div class="voodies-info" style="display:none;">
+                    <h4>Tools Leveraged</h4>
+                    <p>Dart, Flutter, Figma, Git, XCode</p>
+                    <p>
+                        As a Front-End Developer intern for Voodies, I developed the profile pages
+                        for users, ensuring accuracy based on the Figma designs from the UI/UX teams.
+                        In this design, the user is able to navigate to the settings page, posts section,
+                        places section, and favorites section.                
+                    </p>
+                </div>  
+                </div>
+
+                <div class="project-cards">
+                    <img src="img/web.png" width="500" class="project-title" id="web-img">
+                    <h3 class="info">Portfolio Website</h3>
+                    <div id="web-info" style="display:none;">
+                        <h4>Tools Leveraged</h4>
+                        <p>HTML, CSS, JavaScript, Git</p>
+                        <p>
+                            This portfolio website highlights and demonstrates my programming skills, 
+                            technical/professional experience, and projects. Built with HTML, CSS, and 
+                            JavaScript, it reflects my journey through university.
+
+
+                        </p>
+                    </div> 
+
+            </div>
         </section>
 
         <section id="contact">
             <h2>Let's Connect!</h2>
-            <h4>Email</h4>
-            <p>
-                erictuanhoang@gmail.com
-            </p>
+
+            <form class="contact-form" action="mailto:erictuanhoang@gmail.com" method="POST" enctype="text/plain">
+               <input type="text" placeholder="Name">
+               <input type="email" placeholder="Email">
+               <textarea placeholder="Message" rows="6"></textarea>
+               <input type="submit" placeholder="Submit">
+            </form>
             
+            <footer>
+                <p>© Eric Hoang 2025.</p>
+                <ul class="social-imgs">
+                    <li><a href="https://www.linkedin.com/in/eric-hoang2004/" target="_blank"><img src="img/ln.png" width="50"></a></li>
+                    <li><a href="https://github.com/e-hoang" target="_blank"><img src="img/gh.png" width="50"></a></li>
+                </ul>
+            </footer>
         </section>
     </div>
 

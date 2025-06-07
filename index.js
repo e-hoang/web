@@ -23,3 +23,12 @@ window.addEventListener('scroll', () => {
         nav.classList.remove('sticky');
     }
 });
+
+document.querySelectorAll(".project-cards").forEach(card => {
+    card.addEventListener("click", () => {
+        const info = card.querySelector("div");
+        if(info){
+            info.style.display = info.style.display === "none" ? "block" : "none";
+        }
+    });
+});
