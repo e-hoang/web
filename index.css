@@ -155,7 +155,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50vw;
+    width: 25wv;
     margin: 1em;
     padding: 2em;
 }
@@ -365,13 +365,20 @@ h2{
 
 #projects{
     position: relative;
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: top;
     align-items: center;
     min-height: 100vh;
     height:auto;
     z-index: 1;
+}
+
+.project-cards-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+    justify-items: center;
 }
 
 #projects h3{
@@ -388,7 +395,9 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
     margin: 1em;
     padding: 2em;
     overflow:hidden;
@@ -402,7 +411,7 @@ h2{
 .project-cards img{
     border: 0.5px solid white;
     border-radius: 20px;
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     object-fit: contain;
 }
@@ -616,7 +625,7 @@ h2{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 50vw;
+        width: 25wv;
         margin: 1em;
         padding: 2em;
     }
