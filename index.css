@@ -165,11 +165,6 @@ h2{
     padding: 2em;
 }
 
-.project-cards h3{
-    margin-left: 1em;
-    padding-right: 5%;
-}
-
 .project-cards img{
     border: 0.5px solid white;
     max-width: 100%;
@@ -406,9 +401,14 @@ h2{
     margin: 1em;
     padding: 2em;
     overflow:hidden;
+    text-align:center;
 }
 
 .project-cards h3{
+    margin-left: 1em;
+    padding-right: 5%;
+    text-align:center;
+    display: inline-block;
     margin-left: 1em;
     padding-right: 5%;
 }
@@ -639,6 +639,7 @@ h2{
         width: 25vw;
         margin: 1em;
         padding: 2em;
+        text-align:center;
     }
 
     #projects h3{
@@ -652,6 +653,7 @@ h2{
     .project-cards h3{
         margin-left: 1em;
         padding-right: 5%;
+        text-align:center;
     }
     
     .project-cards img{
