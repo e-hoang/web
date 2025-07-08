@@ -15,6 +15,11 @@ body{
     transition: background-position 0.1s;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 #highlight{
     position: fixed;
     top: 0;
@@ -470,7 +475,7 @@ h2{
 
 
 /* Smaller Screens */
-@media (min-width: 50em) and (max-width: 500em) {
+@media (max-width: 200em){
   
     html{
         padding: 1;
@@ -485,6 +490,11 @@ h2{
         transition: background-position 0.1s;
     }
     
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
     #highlight{
         position: fixed;
         top: 0;
