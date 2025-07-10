@@ -234,7 +234,7 @@ footer p {
     font-size: 1rem;
 }
 
-
+/* Smaller Screens  */
 @media (max-width: 50em) {
     .social-imgs img {
         width: 30px;
@@ -243,6 +243,13 @@ footer p {
 
     .project-cards {
         width: 45vw;
+    }
+
+    .project-cards img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: contain;
     }
 
     #about img {
@@ -254,6 +261,7 @@ footer p {
     }
 }
 
+/* Larger Screens */
 @media (min-width: 50em) {
     .social-imgs img {
         width: 50px;
