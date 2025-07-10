@@ -55,12 +55,6 @@ ul img {
     border-radius: 15px;
 }
 
-/* .social-imgs li:hover,
-#nav li:hover,
-#projects h3:hover {
-    text-decoration: underline;
-} */
-
 #nav li,
 #projects h3 {
     position: relative;
@@ -229,8 +223,15 @@ h2 {
     opacity: 0.8;
 }
 
+footer .social-imgs img {
+    margin-top: 6rem;
+    margin-bottom: 0;
+    width: 1.5em;
+    height: 1.5em;
+}
+
 footer p {
-    margin-top: 5em;
+    margin-top: 0.5em;
     font-size: 1rem;
 }
 
@@ -245,7 +246,7 @@ footer p {
         width: 45vw;
     }
 
-    .project-cards img{
+    .project-cards img {
         width: 100%;
         height: auto;
         border-radius: 10px;
