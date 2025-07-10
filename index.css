@@ -91,7 +91,6 @@ ul img {
     box-shadow: 0 0 10px rgba(16, 65, 114, 0.6), 0 0 20px rgba(249, 249, 249, 0.3);
 }
 
-
 #highlight {
     position: fixed;
     top: 0;
@@ -166,7 +165,6 @@ h2 {
 .project-cards {
     border: 1px solid white;
     border-radius: 10px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -174,6 +172,11 @@ h2 {
     padding: 2em;
     overflow: hidden;
     text-align: center;
+}
+
+.project-cards-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .project-cards h3 {
