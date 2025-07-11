@@ -270,6 +270,11 @@ footer p {
         object-fit: contain;
     }
 
+    .project-cards-grid{
+        display: flex;
+        flex-direction:column;
+    }
+
     #about img {
         width: 15vw;
     }
