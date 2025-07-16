@@ -128,6 +128,11 @@ ul img {
     min-height: 100vh;
 }
 
+#header h1 {
+    font-size: 3em;
+    margin: 0.1em 0;
+}
+
 #nav {
     display: none;
     position: fixed;
