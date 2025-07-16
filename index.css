@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: url(img/bg.jpg);
+    background-color:#081c2c;
     background-size: cover;
     background-repeat: repeat;
     transition: background-position 0.1s;
