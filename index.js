@@ -25,10 +25,11 @@ window.addEventListener('scroll', () => {
 });
 
 document.querySelectorAll(".project-cards").forEach(card => {
+    const info = card.querySelector("div.project-info");
+
     card.addEventListener("click", () => {
-        const info = card.querySelector("div");
-        if(info){
-            info.style.display = info.style.display === "none" ? "block" : "none";
-        }
+        const expand = info.style.maxHeight && info.style.maxHeight !== "0px";
+        info.style.maxHeight = expand ? "0px" : info.scrollHeight + "px";
+
     });
 });
