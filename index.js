@@ -1,4 +1,7 @@
 const highlight = document.createElement('div');
+const nav = document.getElementById('nav');
+const ab = document.getElementById('about');
+
 highlight.id = 'highlight';
 document.body.appendChild(highlight);
 
@@ -10,9 +13,6 @@ document.addEventListener('mousemove', function(e){
         transparent 200px
     )`;
 });
-
-const nav = document.getElementById('nav');
-const ab = document.getElementById('about');
 
 window.addEventListener('scroll', () => {
     const top = ab.getBoundingClientRect().top;
